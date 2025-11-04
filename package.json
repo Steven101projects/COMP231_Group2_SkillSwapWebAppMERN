@@ -1,0 +1,23 @@
+{
+  "name": "skillswap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steven101projects/COMP231_Group2_SkillSwapWebAppMERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steven101projects/COMP231_Group2_SkillSwapWebAppMERN/issues"
+  },
+  "homepage": "https://github.com/Steven101projects/COMP231_Group2_SkillSwapWebAppMERN#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
